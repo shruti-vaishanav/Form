@@ -32,7 +32,31 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=email],
+input[type=number],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #384763 !important;
+  border-radius: 4px;
+  color: black;
+  font-size: 16px;
+}
+
+
+p {
+  margin: 0;
+  color: red;
 }
